@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.application {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid rgb(211, 209, 209);
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  padding-top: 40px; 
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.joinCommunity {
+  text-align: left;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.topSection h2{
+  color: #20417c;
+  font-weight: 500.5;
+}
+
+.topSection a{
+  color: #20417c;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topSection a:hover{
+  cursor: pointer;
+}
+
+.buttonsContainer button {
+  display: block;
+  width: 100%;
+  align-items: left;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+  text-align: left;
+}
+
+.jobTitle{
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.date{
+  font-size: 13px;
+  color: rgb(75, 74, 74);  
+  font-weight: 400.5;
+  margin-bottom: 6px;
+}
+
+.link{
+  color: #20457c;
+  font-size: 13px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.company{
+  font-size: 13px;
+  color: rgb(75, 74, 74);  
+  font-weight: 400.5;
+  margin-bottom: 6px;
+}

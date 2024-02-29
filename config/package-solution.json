@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "grow-rpg-client-side-solution",
+    "id": "7e89003d-4d30-45f3-833b-6c34ff5b6938",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "grow-rpg description"
+      },
+      "longDescription": {
+        "default": "grow-rpg description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "grow-rpg Feature",
+        "description": "The feature that activates elements of the grow-rpg solution.",
+        "id": "f45cf2ff-68bb-439c-91ef-4bd2934660ea",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/grow-rpg.sppkg"
+  }
+}
